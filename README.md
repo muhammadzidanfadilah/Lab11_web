@@ -1,6 +1,6 @@
-# Lab11web
 
 # Pertemuan 12
+
 <table>
   <tr>
     <td>Nama</td>
@@ -24,7 +24,8 @@
 
 1.	Membuat folder lab11_php_ci
 
-![image](https://user-images.githubusercontent.com/101716699/172664509-2048a048-7cfe-4b37-9b4a-7cddfe397c20.png)
+![lola1](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/67a03234-c831-4194-aa4f-d0385f15bb27)
+
  
 2.	Sebelum memulai menggunakan Framework Codeigniter, perlu dilakukan konfigurasi
 pada webserver. Beberapa ekstensi PHP perlu diaktifkan untuk kebutuhan
@@ -55,9 +56,10 @@ manual.
 •	Ubah nama direktory framework-4.x.xx menjadi ci4.
 •	Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
 
- ![image](https://user-images.githubusercontent.com/101716699/172665050-305736ca-bce8-457b-b165-7899e9001a7a.png)
+![lolo](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/98861e22-2c04-48af-98c8-cedf14631461)
 
-4.	Menjalankan CLI (Command Line Interface)
+
+5.	Menjalankan CLI (Command Line Interface)
 Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt. Kemudian arahkan lokasi direktori sesuai dengan direktori kerja project dibuat (xampp/htdocs/lab11_ci/ci4/)
  
 ![image](https://user-images.githubusercontent.com/101716699/172665124-3cebdc57-cb4a-412f-a1a4-eff50211e60f.png)
@@ -72,7 +74,8 @@ mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program.
 Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan
 pesan kesalahan seperti berikut.
 
-![image](https://user-images.githubusercontent.com/101716699/172665258-caf60f34-6081-4fbd-abfa-6650c937b1f7.png)
+![lola2](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/51ebe32b-934d-4892-9722-bb8c56637dd1)
+
 
 Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis
 errornya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi
@@ -88,7 +91,8 @@ app/Controller/Home.php hilangkan titik koma pada akhir kode.
  
 ![image](https://user-images.githubusercontent.com/101716699/172665419-ec7668c7-7a05-4ce0-966b-0802cd2a8123.png)
 
-![image](https://user-images.githubusercontent.com/101716699/172665505-d61a8a8f-bac6-4124-87c8-642e4b41852c.png)
+![lola3](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/7424b2c8-f343-4dd3-8edd-bee97b0db136)
+
 
 7.	Membuat route baru dalam Routes.php
 Tambahkan kode berikut ini pada Routes.php
@@ -98,7 +102,8 @@ Tambahkan kode berikut ini pada Routes.php
 
 Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost:8080/about seperti berikut. Maka hasilnya akan terjadi error, yang artinya file/page tersebut tidak ada. Untuk dapat mengakses halaman tersebut, harus dibuat terlebih dahulu Contoller yang sesuai dengan routing yang dibuat yaitu Contoller Page.
 
-![image](https://user-images.githubusercontent.com/101716699/173296396-77f1366b-8b16-4568-b0af-9caeac20e36d.png)
+![lola4](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/aaa7e6df-3d2e-4e14-a33e-be9ba363eee6)
+
 
 8.	Membuat Controller
 Kemudian membuat Controller Page. Buat file baru dengan nama page.php
@@ -121,7 +126,8 @@ menjadi false.
 Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan
 alamat: http://localhost:8080/page/tos
 
-![image](https://user-images.githubusercontent.com/101716699/173297926-0013d69b-bc77-4651-a4f7-109e81b766d0.png)
+![lola5](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/94846cd7-948b-4fa0-a0bb-4e95eadbc22f)
+
  
 10.	Membuat View
 Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file
@@ -136,7 +142,8 @@ Ubah method about pada class Controller Page menjadi seperti berikut:
 
 Kemudian lakukan refresh pada halaman tersebut.
 
-![image](https://user-images.githubusercontent.com/101716699/173298730-5f0bbf83-c85d-4723-bcbd-d84bf7177a9b.png)
+![lola6](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/bc4aa5e6-2de8-40e0-98e3-e55bfbfc13c6)
+
 
 11.	Membuat Layout Web dengan CSS
 Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada
@@ -161,7 +168,8 @@ File app/view/template/about.php
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
-![image](https://user-images.githubusercontent.com/101716699/173299955-cd901721-71d5-4be4-903c-549067183549.png)
+![lola7](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/613acdf8-9709-497a-bf37-36be1c86f71f)
+
 
 <b>Pertanyaan dan Tugas
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.</b>
@@ -169,7 +177,7 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 1. halaman contact
 
 ![image](https://user-images.githubusercontent.com/101716699/173308351-ed187889-77ee-43d3-800a-0f5f5af721b1.png)
-![image](https://user-images.githubusercontent.com/101716699/173308390-d2e93979-fd22-45f5-a1ff-c23fbf6d3947.png)
+![lola8](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/dc86f976-5584-4650-a415-01534267c0bd)
 
 
 # Pertemuan 13
@@ -178,11 +186,12 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 1. Membuat Database data artikel dengan nama lab_ci4
 
-![image](https://user-images.githubusercontent.com/101716699/173310784-9899154c-7bc5-41b2-926d-6067d1f0eeaa.png)
+![lola9](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/a61a7922-dc32-4160-906b-a48acfa081e4)
+
 
 2. Membuat tabel pada database lab_ci4
+![lola10](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/6e74e441-d950-4de2-80eb-517fb30a17dd)
 
-![image](https://user-images.githubusercontent.com/101716699/173311112-06d677ad-6948-434a-a441-d648f5da53c5.png)
 
 3. Melakukan Konfigurasi koneksi database
 Untuk menghubungkan dengan database server. Pada praktikum ini kita gunakan konfigurasi pada file .env.
@@ -208,7 +217,8 @@ Untuk menghubungkan dengan database server. Pada praktikum ini kita gunakan konf
 
 Refresh kembali browser untuk melihat hasil perubahannya.
 
-![image](https://user-images.githubusercontent.com/101716699/173803233-8602f5e0-2357-4d19-8996-15a1ee9c556e.png)
+![lola11](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/649ed1d0-df15-4ad8-825a-0b97bc927583)
+
 
 8. Membuat Tampilan Detail Artikel yaitu Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. dengan cara tambahkan fungsi baru pada Controller Artikel dengan nama view().
 
@@ -224,7 +234,8 @@ Refresh kembali browser untuk melihat hasil perubahannya.
 
 Kemudian klik pada artikel 1 atau dua untuk melihat hasilnya.
 
-![image](https://user-images.githubusercontent.com/101716699/173803723-faf7a106-54c7-4256-ba39-8e5a6aa0681c.png)
+![lola12](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/d4d8345f-47ed-42da-b376-76fdb99f5899)
+
 
 11. Membuat Menu Admin, menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
 
@@ -241,7 +252,8 @@ Kemudian klik pada artikel 1 atau dua untuk melihat hasilnya.
 ![image](https://user-images.githubusercontent.com/101716699/173804165-169c50d4-6bb1-43b7-8ded-c185265e0a22.png)
 Akses menu admin dengan url http://localhost:8080/admin/artikel
 
-![image](https://user-images.githubusercontent.com/101716699/173804343-8fab9fcd-2ce5-477d-990c-b820927ca0f2.png)
+![lola13](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/1acc6eec-e972-43b0-92ef-11bc23eb631c)
+
 
 14. Menambah Data Artikel, tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
 
@@ -250,7 +262,9 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel
 15. Kemudian buat view untuk form tambah dengan nama form_add.php
 
 ![image](https://user-images.githubusercontent.com/101716699/173806172-758e2b04-51ba-45b5-832b-b0e0adf6d29e.png)
-![image](https://user-images.githubusercontent.com/101716699/173806336-c48d6647-de99-432a-9bbc-242ad6bb7126.png)
+
+![lola14](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/85495d6d-1741-4ec9-a839-cb5da4474308)
+
 
 16. Mengubah Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
 
@@ -260,7 +274,9 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel
 17. Kemudian buat view untuk form tambah dengan nama form_edit.php
 
 ![image](https://user-images.githubusercontent.com/101716699/173807750-7bcb80f5-4825-4748-8120-101b7560ed3e.png)
-![image](https://user-images.githubusercontent.com/101716699/173807855-7e19bfcd-cd4a-42cb-b3ff-1f096c9c5c57.png)
+
+![lola15](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/cb713894-5aa2-449a-b329-2c1ee387c75b)
+
 
 18. Menghapus Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 
@@ -299,7 +315,8 @@ Selanjutnya buka kembali CLI dan ketik perintah berikut:
 
 6. Uji Coba Login Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
 
-![image](https://user-images.githubusercontent.com/101716699/174478095-fbe20924-ed38-49ec-96b2-3e6e8d9b4730.png)
+![lola16](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/20abec93-bb34-4661-8e85-9e1197d33824)
+
 
 7. Menambahkan Auth Filter, selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters.
 
@@ -315,7 +332,8 @@ Selanjutnya buka kembali CLI dan ketik perintah berikut:
 
 10. Percobaan Akses Menu Admin, buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.
 
-![image](https://user-images.githubusercontent.com/101716699/174937365-bba4ffe8-bea6-4a9b-ba4d-3839133989c3.png)
+![lola16](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/65679e57-1a0d-4a37-9227-a8ca68aae3a3)
+
 
 11. Fungsi Logout, tambahkan method logout pada Controller User seperti berikut:
 
@@ -327,7 +345,8 @@ Kemudian tambahkan navbar pada admin_header seperti berikut:
 
 Ketika kita klik navbar maka akan langsunh mengarah pada halaman login.
 
-![image](https://user-images.githubusercontent.com/101716699/174939830-42f74973-ae6f-4ffa-9e0f-36c931ffb435.png)
+![lola16](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/15aab388-19ed-4f9d-b830-6eb8cd672d8d)
+
 
 
 # Pertemuan 15
@@ -342,7 +361,8 @@ Ketika kita klik navbar maka akan langsunh mengarah pada halaman login.
 
 3. Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
 
-![image](https://user-images.githubusercontent.com/101716699/175784259-cc7591ec-9e5d-4e1d-ac9b-9051b1109498.png)
+![lola17](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/71a7775b-bc34-4ed2-ac40-35fc5d5d44b1)
+
 
 4.Membuat Pencarian, pencarian data digunakan untuk memfilter data. Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut:
 
@@ -357,10 +377,12 @@ Ketika kita klik navbar maka akan langsunh mengarah pada halaman login.
 ![image](https://user-images.githubusercontent.com/101716699/175784477-bd7ae153-ed1e-4bd0-a2ef-01f0f151ea13.png)
 
 7. Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
+8. 
+![lola18](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/7aefb4a5-7a2b-494c-bc2a-26128832923d)
 
-![image](https://user-images.githubusercontent.com/101716699/175784537-93fb47b3-ee26-4e9c-b3e0-7d33caad799d.png)
 
-8. Upload Gambar, menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+
+9. Upload Gambar, menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
 
 ![image](https://user-images.githubusercontent.com/101716699/175784604-35f91a4c-72df-4adb-a0f4-e4e5991a736e.png)
 
@@ -374,4 +396,5 @@ Ketika kita klik navbar maka akan langsunh mengarah pada halaman login.
 
 11. Ujicoba file upload dengan mengakses menu tambah artikel.
 
-![image](https://user-images.githubusercontent.com/101716699/175784936-d8c3bab7-6abb-464f-bda3-32e36f04b9e4.png)
+![lola19](https://github.com/muhammadzidanfadilah/Lab11_web/assets/115553474/62c76537-95a1-4306-aaab-dd89bd973c2e)
+
